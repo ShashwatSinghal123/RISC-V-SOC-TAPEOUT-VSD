@@ -51,4 +51,4 @@ $ sudo apt-get install iverilog
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
-![Alt Text](Images/gtkwave_installation_done.jpeg)
+![Alt Text](https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/week0/images/Image_gtkwave.png)
