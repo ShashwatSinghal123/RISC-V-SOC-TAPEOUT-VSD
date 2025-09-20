@@ -42,7 +42,3 @@ I also acknowledge the support of **RISC-V International, India Semiconductor Mi
 
 ---
 
-## 📌 Notes for GitHub
-- Save this file as `README.md` at the root of your repository for automatic rendering.
-- Optionally add a `LICENSE` file and `CONTRIBUTING.md` for open collaboration.
-
