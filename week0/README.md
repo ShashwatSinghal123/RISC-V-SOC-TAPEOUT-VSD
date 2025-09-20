@@ -44,7 +44,7 @@ $ sudo make install
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
-![Alt Text](Images/iverilog_status.png)
+![Alt Text](https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/week0/images/Image_iverilog.png)
 
 #### <ins>**gtkwave**</ins>
 ```bash
