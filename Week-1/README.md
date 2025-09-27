@@ -1,7 +1,7 @@
 #  Day 1: Introduction to Verilog RTL Design & Synthesis
 
-Welcome to **Day 1** of the RTL Workshop!  
-Today, you'll embark on your journey into digital design by learning Verilog, open-source simulation with **Icarus Verilog (iverilog)**, and the basics of logic synthesis using **Yosys**. This guide will walk you through practical labs, essential concepts, and insightful explanations to help you build a strong foundation in RTL design.
+Welcome to Day 1 of the RTL Workshop!
+Today, you’ll begin your adventure into digital design by exploring Verilog, performing simulations with the open-source Icarus Verilog (iverilog), and understanding the fundamentals of logic synthesis using Yosys. This guide combines hands-on labs, core concepts, and detailed explanations to help you develop a strong foundation in RTL design.
 
 ---
 
@@ -21,12 +21,11 @@ Today, you'll embark on your journey into digital design by learning Verilog, op
 
 ###  Simulator
 
-A **simulator** is a software tool that checks your digital circuit’s functionality by applying test inputs and viewing outputs. This helps you verify your design before hardware implementation.
+A simulator is a software application that evaluates the behavior of your digital circuit by feeding it test inputs and observing the outputs. This allows you to confirm that your design works correctly before implementing it in hardware.
 
 ###  Design
 
-The **design** is your Verilog code describing the intended logic functionality.
-
+The design refers to your Verilog code that specifies the intended logic behavior of the circuit.
 ###  Testbench
 
 A **testbench** is a simulation environment that applies various inputs to your design and checks if the outputs are correct.
