@@ -60,9 +60,7 @@ Let’s simulate a simple **2-to-1 multiplexer** using iverilog!
 ```shell
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
-<div align="center">
-  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Image_3.png" width="70%">
-</div>
+
 
 ###  Step 2: Install Required Tools
 
@@ -125,6 +123,9 @@ endmodule
 ###  What is Yosys?
 
 **Yosys** is a powerful open-source synthesis tool for digital hardware. It takes your Verilog code and converts it into a gate-level netlist—a hardware blueprint.
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture10.png" width="70%">
+</div>
 
 #### Yosys Features
 
@@ -138,6 +139,9 @@ endmodule
 
 A `.lib` file contains many versions of each gate (like AND, OR, NOT) with different properties:
 
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture12.png" width="70%">
+</div>
 - **Performance:** Faster gates for critical paths, slower for power savings
 - **Power:** Some gates use less energy
 - **Area:** Smaller gates for compact chips
@@ -162,11 +166,16 @@ Let’s synthesize the `good_mux` design using Yosys!
     ```shell
     read_liberty -lib /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
     ```
-
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture15.png" width="70%">
+</div>
 3. **Read the Verilog code**
     ```shell
     read_verilog /home/vsduser/VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files/good_mux.v
     ```
+    <div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture16.png" width="70%">
+</div>
 
 4. **Synthesize the design**
     ```shell
@@ -184,7 +193,7 @@ Let’s synthesize the `good_mux` design using Yosys!
     ```
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4b3a9939-92d0-4efc-ad69-e96faf19e6c3" alt="Yosys Gate-level Schematic" width="70%">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture17.png" width="70%">
 </div>
 
 ---
