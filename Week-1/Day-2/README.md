@@ -59,11 +59,13 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
    ```shell
    gedit sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
- ![Screenshot_2025-05-29_11-43-13](https://github.com/user-attachments/assets/0c31ddf8-8a95-44a4-acaa-e1c5f0518425)
+
 
 
 ---
-
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture18.png" width="70%">
+</div>
 ## Hierarchical vs. Flattened Synthesis
 
 ### Hierarchical Synthesis
@@ -81,9 +83,13 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
 - Reporting can require additional configuration.
 
 **Example:**
-![Screenshot_2025-05-29_19-04-48](https://github.com/user-attachments/assets/91f0244a-2c41-42ea-be6f-468880c3af33)
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture24.png" width="70%">
+</div>
 
-
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture25.png" width="70%">
+</div>
 ---
 
 ### Flattened Synthesis
@@ -102,8 +108,13 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
 
 **Example:**
 
-![Screenshot_2025-05-29_19-20-47](https://github.com/user-attachments/assets/e1d94a5d-d3f7-41ee-8e69-ca0c05be81a3)
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture26.png" width="70%">
+</div>
 
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Picture27.png" width="70%">
+</div>
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
 
 ---
