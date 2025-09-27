@@ -31,7 +31,7 @@ The design refers to your Verilog code that specifies the intended logic behavio
 A **testbench** is a simulation environment that applies various inputs to your design and checks if the outputs are correct.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/93927b96-df80-4da5-b801-284fc2cc6757" alt="Design & Testbench Overview" width="70%">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Image_1.png" width="70%">
 </div>
 
 ---
@@ -41,12 +41,14 @@ A **testbench** is a simulation environment that applies various inputs to your 
 **iverilog** is an open-source simulator for Verilog. Here’s the typical simulation flow:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3ca190fb-cfa4-4abb-b9e1-0151b3c4bdba" alt="iverilog Simulation Flow" width="70%">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Image_2.png" width="70%">
 </div>
 
 - Both the design and testbench are provided as input to iverilog.
 - The simulator produces a `.vcd` file for waveform viewing in GTKWave.
-
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Image_4.png" width="70%">
+</div>
 ---
 
 ## 3. Lab: Simulating a 2-to-1 Multiplexer
@@ -58,7 +60,9 @@ Let’s simulate a simple **2-to-1 multiplexer** using iverilog!
 ```shell
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
-
+<div align="center">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Image_3.png" width="70%">
+</div>
 
 ###  Step 2: Install Required Tools
 
@@ -88,9 +92,8 @@ gtkwave tb_good_mux.vcd
 ```
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/701e8189-3101-4a82-8134-e799521b9a8b" alt="GTKWave Example" width="70%">
+  <img src="https://github.com/ShashwatSinghal123/RISC-V-SOC-TAPEOUT-VSD/blob/main/Week-1/Day-1/Images/Image_6.png" width="70%">
 </div>
-
 ---
 
 ## 4. Verilog Code Analysis
