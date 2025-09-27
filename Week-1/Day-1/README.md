@@ -58,7 +58,7 @@ Let’s simulate a simple **2-to-1 multiplexer** using iverilog!
 ```shell
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
-```
+
 
 ###  Step 2: Install Required Tools
 
